@@ -408,8 +408,8 @@
         line-height: 40px;
     }
     #mobileFinance .m-img {
-        height: 420px;
-        width: 210px;
+        width: 80%;
+        height: auto;
     }
     #mobileFinance img {
         height: 30px;
@@ -448,6 +448,6 @@
 @media only screen and (max-width:768px) {
     #mobileFinance .m-img {
         position: relative;
-        left: -5%;
+        left: -8%;
     }
 }
