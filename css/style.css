@@ -145,7 +145,7 @@ img.hor-move {
 
 #header img {
     width: 600px;
-    height: 400px;
+    /* height: 400px; */
 }
 
 /* Header End */
@@ -394,6 +394,7 @@ img.hor-move {
     left: 0;
     right: 0;
     text-align: center;
+    display: inline-block;
     /* z-index: 90; */
 }
 
@@ -472,7 +473,7 @@ img.hor-move {
 
 #footer {
     margin-top: 300px;
-    height: 70vh;
+    height: 41rem;
     background-color: #042c64;
     position: relative;
     display: flex;
@@ -645,4 +646,8 @@ footer {
 
 .modal-content {
     z-index: 99999;
+}
+
+.footer h3 {
+    margin-top: 50px;
 }
