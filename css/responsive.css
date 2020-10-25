@@ -57,8 +57,9 @@
         background-size: auto auto;
     }
     .m-img {
-        height: 900px;
-        width: 550px;
+        /* height: 900px; */
+        width: 70%;
+        height: auto;
     }
     .mobileFinanceTitle {
         font-size: 44px;
@@ -139,8 +140,9 @@
         background-size: auto auto;
     }
     .m-img {
-        height: 900px;
-        width: 550px;
+        /* height: 900px; */
+        width: 70%;
+        height: auto;
     }
     .mobileFinanceTitle {
         font-size: 44px;
@@ -229,9 +231,16 @@
         margin-top: 100px;
         background-size: auto auto;
     }
+    #mobileFinance p {
+        font-size: 14px;
+    }
+    #mobileFinance h4 {
+        font-size: 18px;
+    }
     .m-img {
-        height: 600px;
-        width: 350px;
+        /* height: 900px; */
+        width: 70%;
+        height: auto;
     }
     .mobileFinanceTitle {
         font-size: 28px;
@@ -324,8 +333,9 @@
         background-size: auto auto;
     }
     .m-img {
-        height: 600px;
-        width: 350px;
+        /* height: 900px; */
+        width: 70%;
+        height: auto;
     }
     .mobileFinanceTitle {
         font-size: 28px;
@@ -408,7 +418,7 @@
         line-height: 40px;
     }
     #mobileFinance .m-img {
-        width: 80%;
+        width: 60%;
         height: auto;
     }
     #mobileFinance img {
@@ -445,9 +455,9 @@
     }
 }
 
-@media only screen and (max-width:768px) {
+/* @media only screen and (max-width:768px) {
     #mobileFinance .m-img {
         position: relative;
         left: -8%;
     }
-}
+} */
