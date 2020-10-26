@@ -1,23 +1,24 @@
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none
 }
 
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow-x: hidden
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.13rem !important;
-    background: url("../images/pattern-1.png") no-repeat right top;
+    font-size: 1.13rem!important;
+    background: url(../images/pattern-1.png) no-repeat right top
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none
 }
 
 .button {
@@ -27,13 +28,13 @@ a {
     color: #fff;
     background-color: #042c64;
     transition: .2s all linear;
-    margin: 0;
+    margin: 0
 }
 
 .button:hover {
     background-color: #fff;
     color: #042c64;
-    border: 1px solid #042c64;
+    border: 1px solid #042c64
 }
 
 .button-2 {
@@ -42,67 +43,63 @@ a {
     color: #042c64;
     border-radius: 34px;
     height: 68px;
-    width: 238px;
+    width: 238px
 }
 
 .button-2:hover {
     border-color: none;
     background: #042c64;
-    color: white;
+    color: #fff
 }
 
 .primary-color {
-    color: #042c64;
+    color: #042c64
 }
 
 .primary-text-color {
-    color: #242424;
+    color: #242424
 }
 
 .secondary-text-color {
-    color: #767676;
+    color: #767676
 }
-
-/* Animation */
 
 img.vert-move {
     -webkit-animation: mover .5s infinite alternate;
-    animation: mover .7s infinite alternate;
+    animation: mover .7s infinite alternate
 }
 
 @-webkit-keyframes mover {
     0% {
-        transform: translateY(0);
+        transform: translateY(0)
     }
     100% {
-        transform: translateY(-30px);
+        transform: translateY(-30px)
     }
 }
 
 img.hor-move {
     -webkit-animation: mover .5s infinite alternate;
-    animation: moveer .7s infinite alternate;
+    animation: moveer .7s infinite alternate
 }
 
 @-webkit-keyframes moveer {
     0% {
-        transform: translateX(0);
+        transform: translateX(0)
     }
     100% {
-        transform: translateX(-30px);
+        transform: translateX(-30px)
     }
 }
 
-/* Navbar Start */
-
 #navbar {
-    padding: 20px 0;
+    padding: 20px 0
 }
 
 .nav-link {
-    color: #434343 !important;
+    color: #434343!important;
     transition: .5s;
-    display: inline-block;
+    display: inline-block
 }
 
 .nav-link:after {
@@ -111,51 +108,42 @@ img.hor-move {
     border-bottom: solid 1px #042c64;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
-    transform-origin: 0% 50%;
+    transform-origin: 0% 50%
 }
 
 .nav-link:hover {
-    border-bottom: solid 1px #042c64;
+    border-bottom: solid 1px #042c64
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
-    color: #042c64 !important;
-    font-weight: bold;
+    color: #042c64!important;
+    font-weight: 700
 }
-
-/* Navbar Start */
-
-/* Header Start */
 
 #header {
     height: auto;
-    margin-top: 120px;
+    margin-top: 120px
 }
 
 .header-title {
     font-size: 50px;
-    font-weight: bolder;
+    font-weight: bolder
 }
 
 #header button {
     height: 60px;
     width: 230px;
-    border-radius: 34px;
+    border-radius: 34px
 }
 
 #header img {
-    width: 600px;
-    /* height: 400px; */
+    width: 600px
 }
-
-/* Header End */
 
 #finance {
     height: auto;
-    /* height: 180vh; */
     margin-top: 100px;
-    background-size: auto auto;
-    /* background: url("../images/pattern-3.png") no-repeat right bottom;  */
+    background-size: auto auto
 }
 
 .single-finance {
@@ -163,68 +151,47 @@ img.hor-move {
     height: 181px;
     width: 170px;
     border: 1px solid #d6d6d6;
-    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .25);
     border-radius: 3px;
     transition: .5s all;
-    margin: 15px;
+    margin: 15px
 }
 
 .finance-wrap:hover .single-finance {
-    /* filter:blur(px); */
     opacity: .8;
     transform: scale(.98);
-    box-shadow: none;
+    box-shadow: none
 }
 
 .finance-wrap:hover .single-finance:hover {
     transform: scale(1);
-    filter: blur(0px);
+    filter: blur(0);
     opacity: 1;
     transform: scale(1.1);
-    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .25)
 }
-
-/* Finance Start */
-
-/* BlockChain Start */
 
 #blockchain {
     height: auto;
     margin-top: 100px;
     background-size: auto auto;
-    background: url("../images/pattern-4.png") no-repeat left 600%;
+    background: url(../images/pattern-4.png) no-repeat left 600%
 }
-
-/* #blockchain img{
-    height:730px ;
-    width:460px;
-} */
-
-/* BlockChain End */
-
-/* Mobile Finance Start */
 
 #mobileFinance {
     height: auto;
-    margin-top: 100px;
+    margin-top: 100px
 }
-
-.mobileFinanceTitle {}
-
-/* Mobile Finance End */
-
-/* Rpadmap Start */
 
 #roadMap {
     height: auto;
     margin-top: 250px;
-    background-size: auto auto;
+    background-size: auto auto
 }
 
 .process-wrapper {
-    /* margin:auto; */
     margin: 100px auto;
-    max-width: 1080px;
+    max-width: 1080px
 }
 
 #progress-bar-container {
@@ -232,7 +199,7 @@ img.hor-move {
     width: 90%;
     margin: auto;
     height: 100px;
-    margin-top: 65px;
+    margin-top: 65px
 }
 
 #progress-bar-container ul {
@@ -252,12 +219,12 @@ img.hor-move {
     height: 30px;
     border-radius: 50%;
     border: solid 2px #aaa;
-    transition: all ease 0.3s;
+    transition: all ease 0.3s
 }
 
 #progress-bar-container li.active:before, #progress-bar-container li:hover:before {
     border: solid 2px #fff;
-    background: #042c64;
+    background: #042c64
 }
 
 #progress-bar-container li {
@@ -273,18 +240,18 @@ img.hor-move {
     transition: all ease 0.2s;
     vertical-align: bottom;
     height: 60px;
-    position: relative;
+    position: relative
 }
 
 #progress-bar-container li .step-inner {
     position: absolute;
     width: 100%;
     bottom: 0;
-    font-size: 14px;
+    font-size: 14px
 }
 
 #progress-bar-container li.active, #progress-bar-container li:hover {
-    color: #444;
+    color: #444
 }
 
 #progress-bar-container li:after {
@@ -297,16 +264,16 @@ img.hor-move {
     border: solid 7px #fff;
     border-radius: 50%;
     margin-top: 40px;
-    box-shadow: 0 2px 13px -1px rgba(0, 0, 0, 0.3);
-    transition: all ease 0.2s;
+    box-shadow: 0 2px 13px -1px rgba(0, 0, 0, .3);
+    transition: all ease 0.2s
 }
 
 #progress-bar-container li:hover:after {
-    background: #555;
+    background: #555
 }
 
 #progress-bar-container li.active:after {
-    background: #207893;
+    background: #207893
 }
 
 #progress-bar-container #line {
@@ -319,7 +286,7 @@ img.hor-move {
     top: 57px;
     z-index: 1;
     border-radius: 50px;
-    transition: all ease 0.9s;
+    transition: all ease 0.9s
 }
 
 #progress-bar-container #line-progress {
@@ -331,32 +298,32 @@ img.hor-move {
     position: absolute;
     z-index: 2;
     border-radius: 50px;
-    transition: all ease 0.9s;
+    transition: all ease 0.9s
 }
 
 #progress-content-section {
     width: 90%;
     margin: auto;
     background: #f3f3f3;
-    border-radius: 4px;
+    border-radius: 4px
 }
 
 #progress-content-section .section-content {
     padding: 30px 40px;
-    text-align: center;
+    text-align: center
 }
 
 #progress-content-section .section-content h2 {
     font-size: 17px;
     text-transform: uppercase;
     color: #042c64;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
 #progress-content-section .section-content p {
     font-size: 16px;
     line-height: 1.8em;
-    color: #777;
+    color: #777
 }
 
 #progress-content-section .section-content {
@@ -364,27 +331,23 @@ img.hor-move {
     animation: FadeInUp 700ms ease 1;
     animation-fill-mode: forwards;
     transform: translateY(15px);
-    opacity: 0;
+    opacity: 0
 }
 
 #progress-content-section .section-content.active {
-    display: block;
+    display: block
 }
 
 @keyframes FadeInUp {
     0% {
         transform: translateY(15px);
-        opacity: 0;
+        opacity: 0
     }
     100% {
-        transform: translateY(0px);
-        opacity: 1;
+        transform: translateY(0);
+        opacity: 1
     }
 }
-
-/* Rpadmap End */
-
-/* Tokenomics */
 
 #tokenomics {
     position: relative;
@@ -394,32 +357,29 @@ img.hor-move {
     left: 0;
     right: 0;
     text-align: center;
-    display: inline-block;
-    /* z-index: 90; */
+    display: inline-block
 }
 
 .tokenomics {
     background-color: #042c64;
     border: 3px solid aqua;
-    border-radius: 50px;
+    border-radius: 50px
 }
 
 .varticalLine {
     width: 3px;
     background: aqua;
     margin: 80px;
-    z-index: 100;
+    z-index: 100
 }
-
-.tokenomicsList {}
 
 .tokenomicsList ul li:nth-child(1) {
     list-style: square;
-    color: #27d0e8;
+    color: #27d0e8
 }
 
 .tokenomicsList ul li:nth-child(1) p {
-    color: #27d0e8;
+    color: #27d0e8
 }
 
 .tokenomicsList ul li:nth-child(2) {
@@ -464,12 +424,8 @@ img.hor-move {
 }
 
 .tokenomicsList ul li:nth-child(6) p {
-    list-style: square;
+    list-style: square
 }
-
-/* Tokenomics */
-
-/* Footer Start */
 
 #footer {
     margin-top: 300px;
@@ -477,17 +433,17 @@ img.hor-move {
     background-color: #042c64;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .form-group {
     margin: 0;
-    padding: 20px;
+    padding: 20px
 }
 
 .form-control {
     position: relative;
-    padding: 0px 10px 0 20px;
+    padding: 0 10px 0 20px;
     margin-top: 10px;
     color: #333;
     font-size: 24px;
@@ -497,22 +453,22 @@ img.hor-move {
     min-height: 60px;
     height: auto;
     width: 50%;
-    border-radius: 50px 0 0 50px !important;
-    z-index: 0;
+    border-radius: 50px 0 0 50px!important;
+    z-index: 0
 }
 
 .form-control :focus {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-color: transparent;
-    z-index: 0;
+    z-index: 0
 }
 
 .subscribebtn {
     right: 110px;
     position: absolute;
     border: 0;
-    padding: 0px 10px;
+    padding: 0 10px;
     margin-top: 10px;
     color: #fff;
     background: aqua;
@@ -523,131 +479,115 @@ img.hor-move {
     box-shadow: none;
     min-height: 60px;
     height: auto;
-    border-radius: 50px !important;
-    z-index: 1;
+    border-radius: 50px!important;
+    z-index: 1
 }
 
 #social {
     margin-bottom: 100px;
     margin-top: 50px;
-    /* margin: 20px 10px; */
-    text-align: center;
+    text-align: center
 }
 
 .smGlobalBtn {
-    /* global button class */
     display: inline-block;
     position: relative;
     cursor: pointer;
     width: 50px;
     height: 50px;
     border: 2px solid #ddd;
-    /* add border to the buttons */
     box-shadow: 0 3px 3px #999;
-    padding: 0px;
+    padding: 0;
     text-decoration: none;
     text-align: center;
     color: #fff;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 2em;
     border-radius: 27px;
     -moz-border-radius: 27px;
-    -webkit-border-radius: 27px;
+    -webkit-border-radius: 27px
 }
-
-/* facebook button class*/
 
 .facebookBtn {
     color: #042c64;
-    background: #fff;
+    background: #fff
 }
 
 .facebookBtn:before {
-    /* use :before to add the relevant icons */
     font-family: "FontAwesome";
-    content: "\f09a";
-    /* add facebook icon */
+    content: "\f09a"
 }
 
 .facebookBtn:hover {
-    color: white;
+    color: #fff;
     background: #4060A5;
     border-color: #4060A5;
-    /* change the border color on mouse hover */
+    text-decoration: none
 }
-
-/* twitter button class*/
 
 .twitterBtn {
     color: #042c64;
-    background: #fff;
+    background: #fff
 }
 
 .twitterBtn:before {
     font-family: "FontAwesome";
-    content: "\f099";
-    /* add twitter icon */
+    content: "\f099"
 }
 
 .twitterBtn:hover {
-    color: white;
+    color: #fff;
     background: #00ABE3;
     border-color: #00ABE3;
+    text-decoration: none
 }
-
-/* google plus button class*/
 
 .googleplusBtn {
     color: #042c64;
-    background: #fff;
+    background: #fff
 }
 
 .googleplusBtn:before {
     font-family: "FontAwesome";
-    content: "\f0d5";
-    /* add googleplus icon */
+    content: "\f0d5"
 }
 
 .googleplusBtn:hover {
-    color: white;
+    color: #fff;
     background: #e64522;
     border-color: #e64522;
+    text-decoration: none
 }
-
-/* linkedin button class*/
 
 .linkedinBtn {
     color: #042c64;
-    background: #fff;
+    background: #fff
 }
 
 .linkedinBtn:before {
     font-family: "FontAwesome";
-    content: "\f0e1";
-    /* add linkedin icon */
+    content: "\f0e1"
 }
 
 .linkedinBtn:hover {
-    color: white;
+    color: #fff;
     background: #0094BC;
     border-color: #0094BC;
+    text-decoration: none
 }
 
 footer {
-    /* min-height:90vh; */
     position: absolute;
     bottom: 0;
     margin: auto;
-    width: 50%;
+    width: 50%
 }
 
-/* Footer End */
-
 .modal-content {
-    z-index: 99999;
+    z-index: 99999
 }
 
 .footer h3 {
-    margin-top: 50px;
+    margin-top: 50px
 }
